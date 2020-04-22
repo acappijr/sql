@@ -8,20 +8,11 @@ Aproveite os exemplos de sintaxes, mas também recomendamos a [documentação do
 
 Cada seção terá um exemplo disponibilizado em um SQL Manager online chamado [DB Fiddle](https://dbfiddle.uk/).
 
+## Banco de dados exemplo
+
+[Clique aqui](bancoDados.sql)
+
+
 ## Sintaxe e exemplos
 
-### SELECT
-
-```sql
-SELECT 1234
--- FROM ...
-
-SELECT 'X'
-
--- SELECT X
-
-SELECT 2 * 7, SQRT(2)
-
-SELECT 2 * 7 AS Multiplicacao, SQRT(2) AS [Raiz Quadrada]
-```
-[Página teste](test.md)
+[SELECT](test.md)
