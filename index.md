@@ -10,7 +10,7 @@ Cada seção terá um exemplo disponibilizado em um SQL Manager online chamado [
 
 ## Banco de dados exemplo
 
-[Clique aqui](bancoDados.sql)
+[Clique aqui](baseDados.sql)
 
 
 ## Sintaxe e exemplos
