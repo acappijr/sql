@@ -8,9 +8,13 @@ Aproveite os exemplos de sintaxes, mas também recomendamos a [documentação do
 
 Cada seção terá um exemplo disponibilizado em um SQL Manager online chamado [DB Fiddle](https://dbfiddle.uk/).
 
-## CREATE
+## DCL
 
 [CREATE](create.md)
+
+## DML
+
+[DML](create.md)
 
 ## Banco de dados exemplo
 
@@ -20,3 +24,7 @@ Cada seção terá um exemplo disponibilizado em um SQL Manager online chamado [
 ## Sintaxe e exemplos
 
 [SELECT](select.md)
+
+## Procedures e functions
+
+[Clique aqui](create.md)
