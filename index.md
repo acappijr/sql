@@ -15,4 +15,4 @@ Cada seção terá um exemplo disponibilizado em um SQL Manager online chamado [
 
 ## Sintaxe e exemplos
 
-[SELECT](test.md)
+[SELECT](select.md)
