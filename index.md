@@ -6,11 +6,11 @@
 Aqui vamos disponibilizar tudo o que você precisará para sobreviver a nossa apresentação.
 Aproveite os exemplos de sintaxes, mas também recomendamos a [documentação do SQL Server](https://docs.microsoft.com/pt-br/sql/t-sql/language-reference?view=sql-server-ver15).
 
-Cada seção terá um exemplo disponibilizado em um SQL Manager online chamado [DB Fiddle](https://dbfiddle.uk/).
+Cada seção terá exemplos para utilizar em seu SQL Manager, caso precise há um SQL Manager online chamado [DB Fiddle](https://dbfiddle.uk/).
 
 ## DDL
 
-[DDL](arquivos/ddl.md)
+[DDL](/arquivos/ddl.md)
 
 ## DML
 
