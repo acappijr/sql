@@ -8,23 +8,34 @@ Aproveite os exemplos de sintaxes, mas também recomendamos a [documentação do
 
 Cada seção terá exemplos para utilizar em seu SQL Manager, caso precise há um SQL Manager online chamado [DB Fiddle](https://dbfiddle.uk/).
 
-## DDL
 
-[DDL](paginas/ddl.md)
+## DDL - Data Definition Language
+Linguagem de Definição de Dados
 
-## DML
+[Página de DDL](paginas/ddl.md)
 
-[DML](create.md)
+
+## DML - Data Manipulation Language
+Linguagem de Manipulação de Dados
+
+[Página de DML](paginas/dml.md)
+
 
 ## Banco de dados exemplo
+Baixe o Banco de Dados com os dados de exemplo para a próxima seção
 
-[Clique aqui](baseDados.sql)
+[Baixe aqui o BD](arquivos/baseDados.sql)
 
 
-## Sintaxe e exemplos
+## DQL - Data Query Language
+Linguagem de Consulta de Dados
 
-[SELECT](select.md)
+[Página de DQL](paginas/dql.md)
 
-## Procedures e functions
 
-[Clique aqui](create.md)
+## Stored Procedures and Functions
+
+[Clique aqui](paginas/procFunc.md)
+
+
+
