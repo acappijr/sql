@@ -10,7 +10,7 @@ Cada seção terá exemplos para utilizar em seu SQL Manager, caso precise há u
 
 ## DDL
 
-[DDL](/arquivos/ddl.md)
+[DDL](paginas/ddl.md)
 
 ## DML
 
