@@ -33,3 +33,22 @@ CREATE TABLE vendas(
   ...
 );
 ```
+```sql
+CREATE TABLE professor(
+  id_professor BIGINT PRIMARY KEY NOT NULL,
+  nome_professor VARCHAR(50) NOT NULL,
+  rg_professor CHAR(10) NOT NULL,
+  endereco_professor VARCHAR(100) NOT NULL
+);
+```
+```sql
+CREATE TABLE materia(
+  id_materia BIGINT PRIMARY KEY NOT NULL,
+  nome_materia VARCHAR(50) NOT NULL,
+  id_professor BIGINT FOREIGN KEY REFERENCES professor(id_professor)
+)
+```
+```sql
+ALTER TABLE professor
+DROP COLUMN endereco_professor
+```
