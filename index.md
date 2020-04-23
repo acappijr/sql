@@ -8,9 +8,9 @@ Aproveite os exemplos de sintaxes, mas também recomendamos a [documentação do
 
 Cada seção terá um exemplo disponibilizado em um SQL Manager online chamado [DB Fiddle](https://dbfiddle.uk/).
 
-## DCL
+## DDL
 
-[CREATE](create.md)
+[DDL](arquivos/ddl.md)
 
 ## DML
 
