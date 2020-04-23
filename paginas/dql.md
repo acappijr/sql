@@ -1,6 +1,6 @@
 ## Página Inicial
 
-[Home](index.md)
+[Home](../index.md)
 
 
 ## SELECT
