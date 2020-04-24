@@ -46,3 +46,13 @@ END;
 
 SELECT dbo.helloWorldFunc();
 ```
+### Usos
+```sql
+--Uma procedure para deletar professor
+CREATE OR ALTER PROCEDURE pr_deletar_professor @pRgProfessor VARCHAR(10)
+AS
+BEGIN
+	DELETE FROM PROFESSOR
+	WHERE RG_PROFESSOR = @pRgProfessor
+END
+```
