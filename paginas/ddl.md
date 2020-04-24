@@ -67,10 +67,10 @@ CREATE TABLE teste(
 )
 
 --Como incluir um NOT NULL em uma coluna
-ALTER TABLE TESTE
+ALTER TABLE teste
 ALTER COLUMN nome VARCHAR(50) NOT NULL
 
 --Mudando a coluna BIGINT para DECIMAL
-ALTER TABLE TESTE
+ALTER TABLE teste
 ALTER COLUMN altura DECIMAL(3,2)
 ```
