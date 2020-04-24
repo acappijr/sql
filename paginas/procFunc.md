@@ -19,7 +19,7 @@ RETURNS data_type
 AS
 BEGIN
   --comandos SQL
-END
+END;
 
 --Para chamar uma procedure ou function
 EXEC procedure_name
@@ -32,9 +32,9 @@ SELECT schema.function_name
 CREATE OR ALTER PROCEDURE helloWorldProc
 AS
 	SELECT 'Hello World'
-GO
+GO;
 
-EXEC helloWorldProc
+EXEC helloWorldProc;
 
 
 CREATE OR ALTER FUNCTION dbo.helloWorldFunc()
@@ -42,7 +42,7 @@ RETURNS varchar(20)
 AS 
 BEGIN
 	 RETURN 'Hello World'
-END
+END;
 
-SELECT dbo.helloWorldFunc()
+SELECT dbo.helloWorldFunc();
 ```
