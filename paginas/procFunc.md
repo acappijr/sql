@@ -4,13 +4,45 @@
 
 
 ## Procedures e Functions
-### 1.0
 
+### Sintaxe
 ```sql
-CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), @PostalCode nvarchar(10)
+--Para procedures
+CREATE OR ALTER PROCEDURE procedure_name
 AS
-SELECT * FROM Customers WHERE City = @City AND PostalCode = @PostalCode
+  --comandos SQL
 GO;
 
+--Para functions
+CREATE OR ALTER FUNCTION schema.function_name
+RETURNS data_type
+AS
+BEGIN
+  --comandos SQL
+END
 
+--Para chamar uma procedure ou function
+EXEC procedure_name
+
+SELECT schema.function_name
+```
+
+### Exemplos
+```sql
+CREATE OR ALTER PROCEDURE helloWorldProc
+AS
+	SELECT 'Hello World'
+GO
+
+EXEC helloWorldProc
+
+
+CREATE OR ALTER FUNCTION dbo.helloWorldFunc()
+RETURNS varchar(20)
+AS 
+BEGIN
+	 RETURN 'Hello World'
+END
+
+SELECT dbo.helloWorldFunc()
 ```
