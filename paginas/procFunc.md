@@ -31,7 +31,7 @@ SELECT schema.function_name
 ```sql
 CREATE OR ALTER PROCEDURE helloWorldProc
 AS
-	SELECT 'Hello World'
+  SELECT 'Hello World'
 GO;
 
 EXEC helloWorldProc;
@@ -41,8 +41,13 @@ CREATE OR ALTER FUNCTION dbo.helloWorldFunc()
 RETURNS varchar(20)
 AS 
 BEGIN
-	 RETURN 'Hello World'
+  RETURN 'Hello World'
 END;
 
 SELECT dbo.helloWorldFunc();
+```
+
+### Usos
+```sql
+
 ```
