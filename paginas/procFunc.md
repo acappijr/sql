@@ -10,8 +10,9 @@
 --Para procedures
 CREATE OR ALTER PROCEDURE procedure_name
 AS
+BEGIN
   --comandos SQL
-GO;
+END;
 
 --Para functions
 CREATE OR ALTER FUNCTION schema.function_name
@@ -31,8 +32,9 @@ SELECT schema.function_name
 ```sql
 CREATE OR ALTER PROCEDURE helloWorldProc
 AS
+BEGIN
   SELECT 'Hello World'
-GO;
+END;
 
 EXEC helloWorldProc;
 
