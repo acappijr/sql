@@ -56,6 +56,8 @@ DROP COLUMN endereco_professor
 ```
 ### Duvidas
 ```sql
+--Como incluir um NOT NULL em uma coluna de tabela já criada
+--Obs a Primary Key sempre será NOT NULL mesmo que não especificado
 --Essa alteração não perde dados da coluna
 CREATE TABLE teste(
 	id int primary key,
