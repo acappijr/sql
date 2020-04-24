@@ -46,8 +46,3 @@ END;
 
 SELECT dbo.helloWorldFunc();
 ```
-
-### Usos
-```sql
-
-```
