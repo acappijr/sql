@@ -38,4 +38,12 @@ VALUES(
 	'1234567890',
 	'Rua de Baixo, 200'
 );
+
+INSERT INTO MATERIA (
+	ID_MATERIA,
+	NOME_MATERIA,
+	ID_PROFESSOR
+)
+VALUES (1, 'POWER BI', 1),
+       (2, 'RPA', 2)
 ```
