@@ -36,4 +36,7 @@ Linguagem de Consulta de Dados, SELECT nesse caso. [Página de Data Query Langua
 ## Stored Procedures and Functions
 Não se enquadram nos conjuntos acima, mas são ferramentas que utilizam vários comandos mencionados anteriormente. [Página de Procedures e Functions](paginas/procFunc.md)
 
+## DTL - Data Transaction Language
+Linguagem de Transação de dados, por exemplo: BEGIN TRANSACTION, COMMIT ou ROLLBACK. [Página de Data Transaction Language](paginas/dtl.md)
+
 
