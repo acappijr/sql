@@ -56,14 +56,21 @@ DROP COLUMN endereco_professor
 ```
 ### Duvidas
 ```sql
---Como incluir um NOT NULL em uma coluna de tabela já criada
+--Alteração de uma tabela
 --Obs a Primary Key sempre será NOT NULL mesmo que não especificado
---Essa alteração não perde dados da coluna
+
+--Criando
 CREATE TABLE teste(
-	id int primary key,
-	nome varchar(20)
+	id INT PRIMARY KEY,
+	nome VARCHAR(50),
+	altura BIGINT
 )
 
+--Como incluir um NOT NULL em uma coluna
 ALTER TABLE TESTE
-ALTER COLUMN nome VARCHAR(20) NOT NULL
+ALTER COLUMN nome VARCHAR(50) NOT NULL
+
+--Mudando a coluna BIGINT para DECIMAL
+ALTER TABLE TESTE
+ALTER COLUMN altura DECIMAL(3,2)
 ```
