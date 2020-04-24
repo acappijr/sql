@@ -56,21 +56,21 @@ BEGIN
 	WHERE RG_PROFESSOR = @pRgProfessor
 END
 ```
-´´´sql
+```sql
 CREATE OR ALTER PROCEDURE pr_incluir_aluno @pIdAluno BIGINT, @pNomeAluno VARCHAR(50), @pRgAluno VARCHAR(10)
 AS
 BEGIN
 	INSERT INTO ALUNO(ID_ALUNO, NOME_ALUNO, RG_ALUNO)
 	VALUES (@pIdAluno, @pNomeAluno, @pRgAluno)
 END
-´´´
-´´´sql
+```
+```sql
 CREATE OR ALTER PROCEDURE pr_consulta_materias_professor
 AS
 BEGIN
 	SELECT * FROM PROFESSOR
 	INNER JOIN MATERIA on MATERIA.ID_PROFESSOR = PROFESSOR.ID_PROFESSOR
 END
-´´´
+```
  
 
