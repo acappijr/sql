@@ -4,18 +4,21 @@
 
 
 ## Data Manipulation Language
-### 1.0
+
+### Sintaxe
 
 ```sql
-SELECT *
-FROM professor
+INSERT INTO table_name(column1, column2, ...)
+VALUES (value1, value2, ...)
 
-SELECT nome_professor
-FROM professor
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
 
-SELECT rg_professor
-FROM professor
+DELETE FROM table_name
+WHERE condition;
 ```
+### Exemplos
 ```sql
 -- Inserir os dados
 INSERT INTO professor(
@@ -35,12 +38,4 @@ VALUES(
 	'1234567890',
 	'Rua de Baixo, 200'
 );
-```
-```sql
-SELECT *
-FROM professor;
-
-SELECT *
-INTO professor1
-FROM professor;
 ```
