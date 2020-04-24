@@ -54,3 +54,14 @@ CREATE TABLE materia(
 ALTER TABLE professor
 DROP COLUMN endereco_professor
 ```
+### Duvidas
+´´´sql
+--Essa alteração não perde dados da coluna
+CREATE TABLE teste(
+	id int primary key,
+	nome varchar(20)
+)
+
+ALTER TABLE TESTE
+ALTER COLUMN nome VARCHAR(20) NOT NULL
+´´´
