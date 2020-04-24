@@ -57,6 +57,7 @@ BEGIN
 END
 ```
 ```sql
+--Uma procedure para criar aluno
 CREATE OR ALTER PROCEDURE pr_incluir_aluno @pIdAluno BIGINT, @pNomeAluno VARCHAR(50), @pRgAluno VARCHAR(10)
 AS
 BEGIN
@@ -65,6 +66,7 @@ BEGIN
 END
 ```
 ```sql
+--Uma procedure para fazer consulta em uma tabela
 CREATE OR ALTER PROCEDURE pr_consulta_materias_professor
 AS
 BEGIN
