@@ -4,7 +4,8 @@
 
 
 ## Data Definition Language
-### 1.0
+
+### Sintaxe
 
 ```sql
 CREATE DATABASE database_name
@@ -16,6 +17,7 @@ CREATE TABLE table_name(
   ...
 );
 ```
+### Exemplos
 ```sql
 CREATE DATABASE ESCOLA
 
