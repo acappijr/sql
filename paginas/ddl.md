@@ -55,7 +55,7 @@ ALTER TABLE professor
 DROP COLUMN endereco_professor
 ```
 ### Duvidas
-´´´sql
+```sql
 --Essa alteração não perde dados da coluna
 CREATE TABLE teste(
 	id int primary key,
@@ -64,4 +64,4 @@ CREATE TABLE teste(
 
 ALTER TABLE TESTE
 ALTER COLUMN nome VARCHAR(20) NOT NULL
-´´´
+```
