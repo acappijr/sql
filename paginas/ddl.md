@@ -54,7 +54,7 @@ CREATE TABLE materia(
 ALTER TABLE professor
 DROP COLUMN endereco_professor
 ```
-### Duvidas
+### Dúvidas
 ```sql
 --Alteração de uma tabela
 --Obs a Primary Key sempre será NOT NULL mesmo que não especificado
